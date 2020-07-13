@@ -1,0 +1,19 @@
+{
+    "http":
+    {
+        "url": "http://<ip>:<port>"
+    },
+    "mappings":
+    {
+        "discord":
+        {
+            "method": "POST",
+            "url": "<Discord URL>",
+            "payload":
+            {
+                "content": "New Alert <{{payload['data']['id']}}>, type={{payload['data']['attributes']['alert_type']}}, misuse_types={{payload['data']['attributes']['subobject']['misuse_types']}}"
+            }
+        }
+    }
+}
+
