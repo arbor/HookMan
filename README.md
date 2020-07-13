@@ -1,5 +1,5 @@
 # HookMan
-HookMan is a web proxy that translate arbitrary webhooks between systems that require different request semantics. 
+HookMan is a web proxy that translates arbitrary webhooks between systems that require different request semantics. 
 It is capable of mapping methods, URLs, and JSON bodies using Jinja templates. 
 Although it should work for any system that generates WebHooks, HookMan was conceived to integrate Webhooks generated 
 by NETSCOUT's Sightline product with various industry tools such as Slack and Discord.
